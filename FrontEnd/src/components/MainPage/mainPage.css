@@ -1,0 +1,148 @@
+
+@media (max-width: 368px) {
+/*#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+.mainPage {
+
+    width: 368px;
+    height: 791px;
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logoName { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logoAudn {
+    position: absolute;
+    width: 207.64px;
+    height: 72px;
+    top: 176px;
+}
+.logoMusic {
+    position: absolute;
+    width: 196px;
+    height: 31px;
+    top: 265px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: -0.794434px;
+    color: #26262E;
+}
+.btnSections { 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    position: absolute;
+    width: 320px;
+    height: 256px;
+    top: 480px;
+}
+.btnRegister {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 12px;
+    width: 315px;
+    height: 48px;
+    background: #FF8E0A;
+    border-radius: 0px 16px;
+    cursor: pointer;
+    font-size: 17px;
+    border: none;
+}
+
+ .btnOthers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 12px;
+    width: 315px;
+    height: 48px; 
+    border: 2px solid black;
+    border-radius: 0px 16px;
+    cursor: pointer;
+    font-size: 17px;
+
+} 
+.btnRegister:hover {
+    border-color: none;
+ }
+ 
+.btnOthers:hover {
+   border-color: black;
+}
+
+.btnLogin {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 12px;
+    width: 320px;
+    height: 48px; 
+    background: none;
+    border: none;
+    font-size: 17px;
+    color: #26262E; 
+    cursor: pointer;
+}
+.linkLogin{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 12px;
+    width: 315px;
+    height: 48px; 
+    border: none;
+    font-size: 18px;
+    background: none;
+}
+.btnLogin:hover {
+    border-color: none;
+ }
+ 
+.divLogin {
+    margin-top: 1rem;
+}
+.loginBackground {
+    display: flex;    
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    width: 368px;
+    height: 792px;
+    top: 0px;
+    background: url('./img/log-in-background.png');
+    mix-blend-mode: multiply;
+    opacity: 0.5;
+}
+a:-webkit-any-link { 
+    text-decoration: none;
+}
+}

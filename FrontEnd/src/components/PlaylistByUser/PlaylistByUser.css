@@ -1,0 +1,206 @@
+@media(max-width:368px){
+.pbutopgradient {
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    /* background: linear-gradient(0deg, rgba(253, 254, 255, 0) 25%, rgba(255, 142, 10, 0.534586) 75%, rgba(255, 142, 10, 0.8) 100%);; */
+    background: linear-gradient(360deg, rgba(253, 254, 255, 0) 25%, rgba(255, 141, 10, 0.288) 75%, rgba(255, 141, 10, 0.363) 100%);;
+    z-index: -1;
+}
+
+.pbucontainer {
+    width: 100%;
+    height: 100%;
+}
+.pbuheader {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 16px;
+    padding-top: 10%;
+}
+.pbucreatedtop {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15%;
+    margin: 0 5% 0 5%;
+    font-size: 20px;
+}
+.pbuinfouser {
+    display: flex;
+    margin: 0 5% 0 5%;
+    padding-top: 4%;
+}
+.pbuuser {
+    padding-left: 5%;
+}
+.pbuprofilepic {
+    width: 15%;
+}
+.pbudate {
+    color: #838486;
+    font-size: 15px;
+}
+.pbuadd {
+        width: 100%;
+        height: 50px;
+        color: #ffffff;
+        font-size: 20px;
+        border: 0;
+        border-radius: 0% 25px 0px;
+        background-color: #FF8E0A;
+}
+.pbuadddiv {
+    padding-top: 10%;
+}
+.pbuaddsongs {
+    padding-top: 10%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+/*SongsByUser*/
+.playlistByUserSongs{
+    display: flex;
+    position: relative;
+    top: 45px;
+    left: 17.5%;
+    flex-wrap: wrap;
+    width: 304px;
+    height: 2px;
+    border-radius: 12px 12px 12px 12px;
+}
+.playlistByUserSongImgs2{
+    border-radius: 0px 42.9412px 0px 0px;
+    width: 112px;
+    height: 112px;
+
+}
+.playlistByUserSongImgs1{
+    width: 112px;
+    height: 112px;
+}
+.playlistByUserSongImgs3{
+    border-radius: 0px 0px 0px 42.9412px;
+    width: 112px;
+    height: 112px;
+}
+.playlistByUserSongImgs4{
+    width: 112px;
+    height: 112px;
+}
+.playlistByUserSongOptions{
+    position: absolute;
+    top: 390px;
+    display: flex;
+    left: 10px;
+}
+.playlistUserLenght{
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+.playlistUserTime{
+    position: relative;
+    left: 70px;
+    color: black !important;
+    font-size: 13.1px;
+    font-weight: bolder;
+}
+.playlistUserTimeWheel{
+    position: absolute;
+    left: 115px;
+    bottom: 15px;   
+}
+.playlistByUserShareIcon{
+    background: none;
+    border: none;
+    margin-left: 10px;
+}
+.playlistByUserMoreOptions{
+    position: absolute;
+    top: 440px;
+    display: flex;
+    justify-content: space-around;
+}  
+.playlistByUserAddSongs{
+    margin-left: 10px;
+    width: 150px;  
+    background:none;
+    border: none;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 16px;
+    line-height: 20px;
+}
+.playlistByUserShuffle{
+    position: absolute;
+    left: 260px;
+    border: none;
+    background: none;
+}
+.playlistByUserPlay{
+    position: absolute;
+    left: 310px;
+    top: -10px;
+    border: none;
+    background: none;
+}
+.playlistByUserListSongsImg{
+    width: 48px;
+    height: 48px;
+}
+.playlistByUserSongLists{
+    position: absolute;
+    top: 490px;
+    left: 40px;   
+}
+.playlistByUseriListSongContent{
+    display: flex;
+    height: 70px;
+}
+.playlistByUserListSongInfo{
+    padding-left: 15px;
+}
+.playlistByUserSongListsofSongs{
+    list-style: none;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 300px;
+    height: 210px;
+   
+}
+.playlistByUserListsSongInfoArtist{
+    font-size: 14px;
+    font-weight: bold ;
+    opacity: 1;
+}
+.playlistByUserListMoreInfoButton{
+    background: none;
+    border: none;
+    position: sticky;
+    margin-bottom: 40px;
+    left: 270px;
+}
+.playlistByUserImporvePlaylist{
+    position: relative;
+    bottom: 6px;
+    width: 107px;
+    height: 24px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    border: 1.5px solid #26262E;
+    border-radius: 0px 12px;
+    margin-right: 15px;
+    
+ 
+
+}
+}
